@@ -17,11 +17,12 @@ const Header = () => {
               <div className="column--div">
                 <h1 className="header--h1">
                   ВЫКУП
-                  <span className="header--span" style={{ color: "#027777" }}>
+                  <span className="header--span" style={{ color: "orange" }}>
                     .KG
                   </span>
                 </h1>
                 <p>срочный выкуп авто в Кыргызстане</p>
+                <h1>alimsssss</h1>
               </div>
             </div>
             <nav>
