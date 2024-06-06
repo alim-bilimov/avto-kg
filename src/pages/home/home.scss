@@ -1,0 +1,108 @@
+#home {
+  height: 98vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url("https://i.redd.it/h7nfqtjpc9t71.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  .home {
+    padding-top: 190px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    .home--left {
+      h1 {
+        color: #ffffff;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 60.33px;
+        letter-spacing: 0.032em;
+        text-align: left;
+      }
+      p {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26.54px;
+        letter-spacing: 0.015em;
+        text-align: left;
+        color: #ffffff;
+        margin: 22px 0;
+      }
+      button {
+        width: 370px;
+        height: 62px;
+        top: 382px;
+        left: 83px;
+        padding: 16px 2px 17px 29px;
+        gap: 0px;
+        border-radius: 15px;
+        opacity: 0px;
+        font-family: Inter;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26.54px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        background: orange;
+        border: none;
+        color: white;
+        cursor: pointer;
+        margin-top: 30px;
+      }
+    }
+    .home--right {
+      width: 500px;
+      height: 500px;
+      background-color: #0000008c;
+      border-radius: 20px;
+      padding: 20px 20px;
+      h2 {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 600;
+
+        line-height: 60.33px;
+        letter-spacing: 0.032em;
+        text-align: center;
+      }
+      .box {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        input {
+          width: 350px;
+          height: 42px;
+          padding: 20px 20px;
+          border: none;
+          outline: none;
+          border-radius: 8px;
+          font-size: 17px;
+        }
+        button {
+          padding: 10px 25px;
+          gap: 0px;
+          border-radius: 15px;
+          opacity: 0px;
+          font-family: Inter;
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 26.54px;
+          letter-spacing: 0.012em;
+          text-align: left;
+          background: transparent;
+
+          border: solid 1px #f0b58c;
+          color: white;
+          cursor: pointer;
+          transition: 0.5s;
+          &:hover {
+            background-color: orange;
+          }
+        }
+      }
+    }
+  }
+}
