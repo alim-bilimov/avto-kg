@@ -1,9 +1,15 @@
 #header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
+
     .header--div {
       display: flex;
       align-items: center;
