@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+//! AVTO BLOCK  ////
+
+@keyframes scrollLeft {
+  to {
+    left: -320px;
+  }
+}
+
+.avtoBlocks {
+  display: flex;
+  width: 90%;
+  height: 230px;
+  margin-inline: auto;
+  position: relative;
+  margin-top: 3rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 95%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 95%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  .avtoBlock1 {
+    animation-delay: 0s;
+  }
+  .avtoBlock2 {
+    animation-delay: 6s;
+  }
+  .avtoBlock3 {
+    animation-delay: 12s;
+  }
+  .avtoBlock4 {
+    animation-delay: 18s;
+  }
+  .avtoBlock5 {
+    animation-delay: 24s;
+  }
+  .avtoBlock6 {
+    animation-delay: 30s;
+  }
+  .avtoBlock {
+    width: 300px;
+    height: 190px;
+    position: absolute;
+    left: max(calc(200px * 8), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-block: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .imgRound {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      .avtoIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .avtoIcon2 {
+        color: indigo;
+        font-size: 27px;
+      }
+      .avtoIcon3 {
+        color: green;
+        font-size: 27px;
+      }
+      .avtoIcon4 {
+        color: darkslateblue;
+        font-size: 27px;
+      }
+      .avtoIcon5 {
+        color: navy;
+        font-size: 27px;
+      }
+      .avtoIcon6 {
+        color: blue;
+        font-size: 27px;
+      }
+    }
+    .imgRound1 {
+      background-color: rgb(177, 240, 187);
+    }
+    .imgRound2 {
+      background-color: rgb(195, 143, 232);
+    }
+    .imgRound3 {
+      background-color: rgb(177, 240, 187);
+    }
+    .imgRound4 {
+      background-color: rgb(177, 240, 187);
+    }
+    .imgRound5 {
+      background-color: rgb(177, 240, 187);
+    }
+    .imgRound6 {
+      background-color: rgb(177, 240, 187);
+    }
+
+    .avto_P {
+      color: black;
+      font-size: 16px;
+      text-align: center;
+      width: 200px;
+    }
+  }
+}
+
+// ! ///////////////////////////////////
+
+.HowBuyCars {
+  padding-block: 90px;
+  h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 49px;
+  }
+  .roundBlocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin: 20px 0;
+    .checkLine {
+      height: 1px;
+      width: 240px;
+      background-color: orange;
+    }
+    .roundBlock {
+      border: solid rgb(255, 210, 97) 8px;
+      color: white;
+      width: 75px;
+      height: 75px;
+      background-color: orange;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s ease;
+      span {
+        font-size: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &:hover {
+        transform: scale(1.202);
+      }
+    }
+  }
+  .checkBlocks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .checkBlock {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      img {
+        width: 100px;
+      }
+      h3 {
+        font-size: 20px;
+        margin: 8px 0;
+      }
+      p {
+        width: 270px;
+        text-align: center;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+// ! ///////////////////////////////////\
+
+.questions {
+  padding-block: 50px;
+  h1 {
+    font-family: "Monserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .avtoAcordion {
+    margin-block: 50px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  }
+  .avto_P {
+    color: black;
+    font-weight: 500;
+    padding: 0 30px;
+  }
+}
+
+// ! ///////////////////////
+
+.ModelCars {
+  .modelBlocks {
+    display: flex;
+    overflow-y: scroll;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    .Models {
+      width: 300px;
+      img {
+        width: 70px;
+      }
+    }
+  }
+}
